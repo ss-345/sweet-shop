@@ -1,0 +1,30 @@
+{
+  "name": "sweet-shop-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Sweet Shop Management System with React, Node.js, and MongoDB",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "dev-backend": "cd backend && npm run dev",
+    "dev-frontend": "cd frontend && npm run dev",
+    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm run build && npm run preview\"",
+    "test": "cd backend && npm test && cd ../frontend && npm test",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "mongodb",
+    "express",
+    "redux",
+    "tailwindcss",
+    "jwt",
+    "sweet-shop",
+    "inventory-management"
+  ],
+  "author": "Sweet Shop Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
