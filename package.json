@@ -22,7 +22,7 @@
     "sweet-shop",
     "inventory-management"
   ],
-  "author": "Sweet Shop Team",
+  "author": "Sujal",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^8.2.2"
